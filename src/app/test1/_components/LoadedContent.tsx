@@ -3,7 +3,7 @@ const LoadedContent = async () => {
     setTimeout(() => {
       resolve(
         <div className="bg-green-500 p-8">
-          <p>LoadedContent</p>
+          <h2>LoadedContent</h2>
         </div>
       );
     }, 2000);
