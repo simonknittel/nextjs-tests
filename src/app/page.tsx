@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <h2>Streaming</h2>
       <Link href="/tests/streaming/no-streaming">No streaming</Link>
       <Link href="/tests/streaming/without-supsense">Without Suspense</Link>
-      <Link href="/tests/streaming/suspense-without-fallback">With suspense but without fallback</Link>
+      <Link href="/tests/streaming/suspense-without-fallback">With Suspense but without fallback</Link>
       <Link href="/tests/streaming/suspense-with-fallback">With Suspense and with fallback</Link>
     </main>
   )
