@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import AsyncContent from "./_components/AsyncContent";
+import AsyncContent from "../_components/AsyncContent";
 
 export const revalidate = 0;
 
